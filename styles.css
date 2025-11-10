@@ -1,0 +1,51 @@
+html {
+    font-family: sans-serif;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links {
+    margin: 0 8px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.cta-link {
+    background-color: #ffbd00;
+    border-radius: 14px;
+}
+
+.tab-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.tab-item {
+    flex-grow: 1;
+}
+.tab-navlinks {
+    background-color: aqua;
+    color: black;
+    display: block;
+    text-align: center;
+    margin: 0 4px;
+    padding: 5px 15px;
+}
